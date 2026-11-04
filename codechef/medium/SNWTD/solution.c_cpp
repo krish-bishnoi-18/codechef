@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	vector<int> v;
+	for(int i =0;i<n;i++){
+	    int a ;
+	    cin>>a;
+	    v.push_back(a);
+	}
+	int d;
+	cin>>d;
+	sort(v.begin(),v.end());
+	int number=-1;
+	for(int i=0;i<v.size();i++){
+	    int num=v[i],sum=0;
+	    while(num>0){
+	        int reminder=num%10;
+	        sum+=reminder;
+	        num/=10;
+	    }
+	    if(sum==d){
+	        number=v[i];
+	        break;
+	    }
+	}
+	cout<<number<<endl;
+
+}
