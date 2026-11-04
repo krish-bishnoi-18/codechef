@@ -69,7 +69,7 @@ No number in the array has a digit sum equal to $17$, so the answer is $-1$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T16:42:02.837Z  
+**Submitted:** 2026-11-04T16:43:06.670Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
