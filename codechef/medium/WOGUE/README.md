@@ -58,7 +58,7 @@ BGGGG
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T15:23:42.331Z  
+**Submitted:** 2026-11-16T15:23:53.404Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
