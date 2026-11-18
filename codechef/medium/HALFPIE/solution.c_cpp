@@ -1,0 +1,27 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+int main() {
+   int t;
+   cin>>t;
+   while(t--){
+       int n;
+       cin>>n;
+       std::vector<int> back ;
+       int sum=0;
+       for(int i =0;i<n;i++){
+           int a;
+           cin>>a;
+           back.push_back(a);
+           sum=sum+back[i];
+       }
+       int minpair=back[0]+back[1];
+       for(int i =0;i<n-1;i++){
+            minpair=min(minpair,back[i]+back[i+1]);
+       }
+       cout<<sum-((minpair)/2)<<endl;
+   }
+
+}
