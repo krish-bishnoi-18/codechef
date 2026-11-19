@@ -63,7 +63,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T14:49:28.552Z  
+**Submitted:** 2026-11-19T13:25:08.107Z  
 
 ```c_cpp
 #include<iostream>
